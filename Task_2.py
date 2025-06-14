@@ -31,7 +31,7 @@ model.compile(optimizer='adam',
 
 # Train the model
 history = model.fit(X_train, y_train, 
-                    epochs=10, 
+                    epochs=5, 
                     batch_size=128, 
                     validation_split=0.1)
 
